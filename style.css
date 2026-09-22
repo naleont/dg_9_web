@@ -1,4 +1,16 @@
-.header-1 {
-    color: red;
-    background-color: yellow;
+.page {
+  border: solid 2px blue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block {
+  border: solid 2px red;
+  font-size: 30pt;
+  padding: 15px;
+  width: 90vw;
+  height: 100px;
 }
