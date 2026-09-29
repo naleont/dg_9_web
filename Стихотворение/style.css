@@ -2,3 +2,11 @@
     color: red;
     background-color: yellow;
 }
+
+.header-1:hover {
+    color: green;
+    background-color: beige;
+    font-style: italic;
+    text-decoration: underline;
+    transition: all 0.6s;
+}
