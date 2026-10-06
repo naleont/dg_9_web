@@ -8,5 +8,5 @@
     background-color: beige;
     font-style: italic;
     text-decoration: underline;
-    transition: all 0.6s;
+    transition: color 1s;
 }
