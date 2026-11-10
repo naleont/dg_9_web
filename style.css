@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .page {
   border: solid 2px blue;
   height: 100vh;
   display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .block {
@@ -17,4 +22,16 @@
 
 .logo {
   height: 40px;
+}
+
+.header {
+  border: solid 2px red;
+}
+
+.footer {
+  border: solid 2px red;
+}
+
+.content {
+  border: solid 2px red;
 }
